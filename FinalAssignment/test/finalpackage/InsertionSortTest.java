@@ -22,7 +22,7 @@ class InsertionSortTest {
 	}
 	
 	@Test
-	@DisplayName("Testing the value output")
+	@DisplayName("Testing the value True False output")
 	void assertTrueFalseTest() {
 		int correctAnswer = 1;
 		assertTrue(correctAnswer == InsertionSort(), "Function not sorting array");
@@ -36,7 +36,7 @@ class InsertionSortTest {
 	}
 	
 	@Test
-	@DisplayName("Testing array output")
+	@DisplayName("Testing array Equal output")
 	void assertArrayEqualsTest() {
 		int[] correctAnswer = {1,2,3,4,5};
 		assertArrayEquals(correctAnswer, InsertionArraySort(), "Array are not equal");
